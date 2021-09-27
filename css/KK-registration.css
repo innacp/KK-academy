@@ -12,9 +12,9 @@ html {
 }
 body {
     display: flex;
+    flex-direction: column;
     width: 1920px;
     height: 859px;
-    background-color:  #FFFFFF;;
 }
 .logo {
     width: 593px;
@@ -220,6 +220,148 @@ input {
     outline: none;
     color: #B9B9B9;
 }
+.top-block {
+    display: flex;
+    background-color:  #FFFFFF;
+}
+.mid-block {
+    background: linear-gradient(90deg, #CFAC3C 0%, #ECD89A 100%); 
+
+}
+.mid-block-paragraph {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 506px;
+    color: white;
+    padding: 60px 163px 60px 147px;  
+}
+.mid-span-1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    padding-bottom: 40px;
+}
+.span-bold {
+    font-weight: 700;
+}
+.mid-span-2,
+.mid-span-3 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    padding-bottom: 40px;
+}
+.mid-span-4,
+.mid-span-5,
+.mid-span-6 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+}
+.span-black {
+    color: black;
+}
+.span-blue {
+    color: royalblue;
+}
+.bottom-block {
+    height: 594px;
+    background-color: white;
+    padding-top: 58px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bottom-heading {
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-bottom: 69px;
+    color: #000000;
+}
+.bottom-icons-spans-block {
+    width: 1188px;
+    height: 333px;
+    padding-bottom: 40px;
+}
+.bottom-icons-box {
+    padding-bottom: 33px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-icon-2,
+.bottom-icon-3,
+.bottom-icon-4 {
+}
+.bottom-spans-box {
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000000;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-span-1,
+.bottom-span-2,
+.bottom-span-3,
+.bottom-span-4,
+.bottom-span-5 {
+    width: 200px;
+    height: 100px;
+}
+.bottom-span-2,
+.bottom-span-3,
+.bottom-span-4{
+}
+.footer-text {
+    height: 549px;
+    background: #212529;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    text-align: center;
+    padding: 70px 113px 70px 105px;
+}
+.footer-span-4 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer-span-6 {
+    padding-top: 30px;
+    font-size: 20px;
+    line-height: 23px;
+
+}
+
+
+
 
 
 
