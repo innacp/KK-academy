@@ -14,6 +14,8 @@ body {
     display: flex;
     flex-direction: column;
     width: 1920px;
+}
+.top-block {
     height: 859px;
 }
 .logo {
@@ -294,22 +296,50 @@ input {
     padding-bottom: 69px;
     color: #000000;
 }
-.bottom-icons-spans-block {
+.bottom-icons-block {
     width: 1188px;
     height: 333px;
     padding-bottom: 40px;
 }
-.bottom-icons-box {
+.bottom-icons-block {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
     padding-bottom: 33px;
-    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    /* justify-content: space-between; */
+}
+.icon-box {
+    display: flex;
+    flex-direction: column;
 }
 .bottom-icon-2,
 .bottom-icon-3,
 .bottom-icon-4 {
+    margin-right: 47px; 
+    margin-left: 47px;
 }
-.bottom-spans-box {
+.bottom-span-2,
+.bottom-span-3,
+.bottom-span-4 {
+    margin-right: 47px; 
+    margin-left: 47px;
+}
+
+.bottom-span-1,
+.bottom-span-2,
+.bottom-span-3,
+.bottom-span-4,
+.bottom-span-5 {
+    width: 200px;
+    height: 100px;
+}
+/* .bottom-spans-box {
     font-family: Roboto;
     font-size: 24px;
     font-style: normal;
@@ -320,7 +350,7 @@ input {
     color: #000000;
     display: flex;
     justify-content: space-between;
-}
+} */
 .bottom-span-1,
 .bottom-span-2,
 .bottom-span-3,
@@ -328,10 +358,6 @@ input {
 .bottom-span-5 {
     width: 200px;
     height: 100px;
-}
-.bottom-span-2,
-.bottom-span-3,
-.bottom-span-4{
 }
 .footer-text {
     height: 549px;
@@ -357,9 +383,7 @@ input {
     padding-top: 30px;
     font-size: 20px;
     line-height: 22px;
-
 }
-
 
 
 
